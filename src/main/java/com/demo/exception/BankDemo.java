@@ -1,5 +1,8 @@
 package com.demo.exception;
 public class BankDemo {
+	private BankDemo(){
+		
+	}
 	public static void main(String[] args) {
 		CheckingAccount c = new CheckingAccount(101);
 		System.out.println("Depositing $500...");
