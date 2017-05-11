@@ -4,6 +4,7 @@ class  ChildThread2
     implements Runnable
 {	
   Thread t;
+  
     public ChildThread2(String name)
     {
        t = new Thread(this);
@@ -28,6 +29,7 @@ public class MainThread2
    public static void main(String args[])
 {
     ChildThread2 ct1 = new ChildThread2("Child1");
+    
    ChildThread2 ct2 = new ChildThread2("Child2");
     for (int i = 1; i <=5;i ++)
    {
