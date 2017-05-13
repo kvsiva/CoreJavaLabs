@@ -26,14 +26,12 @@ public class SimpleMathTest {
 
 	@Test
 	public void testSum() {
-
 		assertEquals("Testing Sum:", 9, testObj.sum(3, 6));
 	}
 
-	@Ignore
 	@Test
 	public void testSquare() {
-		fail("Not yet implemented");
+		assertEquals("Testing Square:", 16,testObj.square(4));
 	}
 	
 	@After
