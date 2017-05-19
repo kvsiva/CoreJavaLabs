@@ -2,10 +2,10 @@ package com.demo.collections;
 
 public class Employee {
 
-	int empNo;
-	String empName;
-	String address;
-	int phoneNumber;
+	private int empNo;
+	private String empName;
+	private String address;
+	private int phoneNumber;
 
 	public int getEmpNo() {
 		return empNo;
