@@ -1,6 +1,8 @@
 package com.demo.collections;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
 
 public class CollectionDemo7 {
 
@@ -14,6 +16,18 @@ public class CollectionDemo7 {
 		mapObj.put("Phone","12343425");
 		
 		System.out.println("Name:"+mapObj.get("Name"));
+		
+		HashSet<String> setObj=new HashSet<String>();
+		
+		setObj.add("Siva");
+		setObj.add("Arun");
+		
+		Iterator<String> itr=setObj.iterator();
+		
+		while (itr.hasNext()){
+			System.out.println(itr.next());
+		}
+		
 	}
 
 }
