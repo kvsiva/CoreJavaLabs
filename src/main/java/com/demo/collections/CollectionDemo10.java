@@ -1,5 +1,6 @@
 package com.demo.collections;
 
+import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.TreeSet;
@@ -20,8 +21,9 @@ public class CollectionDemo10 {
 
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
+			//itr.remove();
 		}
-
+		       
 	}
 
 }
